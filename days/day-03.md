@@ -1,4 +1,4 @@
-# Day 3 — 4/3 (金): Deep Research 比較 + ツール使い分け
+# Day 3 — Deep Research 比較 + ツール使い分け
 
 ## 今日のゴール
 
