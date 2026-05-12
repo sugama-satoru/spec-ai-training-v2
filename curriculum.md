@@ -7,23 +7,23 @@
 
 ## スケジュール一覧
 
-| Day | 日付 | テーマ | 詳細 |
-|-----|------|--------|------|
-| Day1 | 4/1 (水) | AIで自己紹介スライド作成 | [day-01.md](days/day-01.md) |
-| Day2 | 4/2 (木) | Claude製品リサーチ | [day-02.md](days/day-02.md) |
-| Day3 | 4/3 (金) | Deep Research 比較 + ツール使い分け | [day-03.md](days/day-03.md) |
-| Day4 | 4/6 (月) | 3ツール比較整理 + Markdown + Git | [day-04.md](days/day-04.md) |
-| Day5 | 4/7 (火) | リサーチ × AI + AIの限界を知る | [day-05.md](days/day-05.md) |
-| Day6 | 4/8 (水) | 資料作成 × AI + 展示会視察 | [day-06.md](days/day-06.md) |
-| Day7 | 4/9 (木) | 資料作成実務 + 人間/AI役割分担 | [day-07.md](days/day-07.md) |
-| Day8 | 4/10 (金) | GTM実務 + 差別化整理 | [day-08.md](days/day-08.md) |
-| Day9 | 4/13 (月) | データ分析 + LLM基礎挙動 | [day-09.md](days/day-09.md) |
-| Day10 | 4/14 (火) | Project A 設計 | [day-10.md](days/day-10.md) |
-| — | 4/15 (水) | — | **展示会出展（研修休み）** |
-| — | 4/16 (木) | — | **展示会出展（研修休み）** |
-| Day11 | 4/17 (金) | Project A 実装・デプロイ | [day-11.md](days/day-11.md) |
-| Day12 | 4/20 (月) | Project B 設計・実装・デプロイ | [day-12.md](days/day-12.md) |
-| Day13 | 4/21 (火) | 最終発表 + 実務移行計画 | [day-13.md](days/day-13.md) |
+| Day | テーマ | 詳細 |
+|-----|--------|------|
+| Day1 | AIで自己紹介スライド作成 | [day-01.md](days/day-01.md) |
+| Day2 | Claude製品リサーチ | [day-02.md](days/day-02.md) |
+| Day3 | Deep Research 比較 + ツール使い分け | [day-03.md](days/day-03.md) |
+| Day4 | 3ツール比較整理 + Markdown + Git | [day-04.md](days/day-04.md) |
+| Day5 | リサーチ × AI + AIの限界を知る | [day-05.md](days/day-05.md) |
+| Day6 | 資料作成 × AI + 展示会視察 | [day-06.md](days/day-06.md) |
+| Day7 | 資料作成実務 + 人間/AI役割分担 | [day-07.md](days/day-07.md) |
+| Day8 | GTM実務 + 差別化整理 | [day-08.md](days/day-08.md) |
+| Day9 | データ分析 + LLM基礎挙動 | [day-09.md](days/day-09.md) |
+| Day10 | Project A 設計 | [day-10.md](days/day-10.md) |
+| — | **展示会出展（研修休み）** | — |
+| — | **展示会出展（研修休み）** | — |
+| Day11 | Project A 実装・デプロイ | [day-11.md](days/day-11.md) |
+| Day12 | Project B 設計・実装・デプロイ | [day-12.md](days/day-12.md) |
+| Day13 | 最終発表 + 実務移行計画 | [day-13.md](days/day-13.md) |
 
 ---
 
@@ -31,9 +31,9 @@
 
 | Phase | 期間 | テーマ | 提出方法 |
 |-------|------|--------|---------|
-| Phase 1 | Day1-Day3 (4/1-4/3) | AIツール基礎体験 | Google Docs/Slides → Google Drive → Slack にリンク報告 |
-| Phase 2 | Day4-Day9 (4/6-4/13) | AI基礎 + 実務応用 | Git/PR（Day4でGit学習、Day5以降は毎日PR提出） |
-| Phase 3 | Day10-Day13 (4/14-4/21) | 開発体験 | Git/PR |
+| Phase 1 | Day1-Day3 | AIツール基礎体験 | Google Docs/Slides → Google Drive → Slack にリンク報告 |
+| Phase 2 | Day4-Day9 | AI基礎 + 実務応用 | Git/PR（Day4でGit学習、Day5以降は毎日PR提出） |
+| Phase 3 | Day10-Day13 | 開発体験 | Git/PR |
 
 ---
 

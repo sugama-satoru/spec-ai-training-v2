@@ -1,4 +1,4 @@
-# Day 4 — 4/6 (月): 3ツール比較整理 + Markdown + Git
+# Day 4 — 3ツール比較整理 + Markdown + Git
 
 ## 今日のゴール
 
