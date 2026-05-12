@@ -4,8 +4,6 @@
 
 AI を使った資料作成ワークフローを習得する。「AI に任せること / 人間がやること」の判断基準を持つ。展示会視察で得た学びをレポートにまとめる。
 
-> **この日は展示会視察があるため半日稼働。** 課題1・2は午前中に取り組み、午後は展示会視察 → 課題3のレポート作成。
-
 ---
 
 ## Morning Briefing — 30 min
@@ -140,7 +138,6 @@ git status
 ```
 new file:   training/day-06/presentation-slides.md
 new file:   training/day-06/role-split-matrix.md
-new file:   training/day-06/exhibition-report.md
 new file:   training/day-06/daily-report.md
 ```
 
