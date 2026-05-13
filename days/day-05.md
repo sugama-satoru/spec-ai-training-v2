@@ -121,7 +121,7 @@ Ghostty または Cursor のターミナル（`` Ctrl + ` ``）を開いて、�
 
 ```bash
 # 研修リポジトリに移動（クローン先がデスクトップの場合）
-cd ~/Desktop/spec-ai-training
+cd ~/Desktop/spec-ai-training-v2
 
 # 最新を取得
 git pull origin main
@@ -164,9 +164,9 @@ git push origin training/day-05-research
 ```
 
 **GitHubでPRを作成する:**
-1. https://github.com/あなたのユーザー名/spec-ai-training を開く
+1. https://github.com/あなたのユーザー名/spec-ai-training-v2 を開く
 2. 黄色いバナーの「Compare & pull request」をクリック
-3. **base repository** が自分のリポジトリになっていることを確認（親リポジトリ `SHU-T0/spec-ai-training` が選ばれていたら変更する）
+3. **base repository** が自分のリポジトリになっていることを確認（親リポジトリ `farleap/spec-ai-training-v2` が選ばれていたら変更する）
 4. タイトル: `Day5: リサーチレポート`
 5. テンプレートに記入して「Create pull request」
 

@@ -145,7 +145,7 @@ Ghostty または Cursor のターミナル（`` Ctrl + ` ``）を開いて、�
 
 ```bash
 # 研修リポジトリに移動（クローン先がデスクトップの場合）
-cd ~/Desktop/spec-ai-training
+cd ~/Desktop/spec-ai-training-v2
 git pull origin main
 git checkout -b training/day-08-gtm-differentiation
 
@@ -175,7 +175,7 @@ git push origin training/day-08-gtm-differentiation
 ```
 
 **GitHubでPRを作成:**
-1. https://github.com/あなたのユーザー名/spec-ai-training を開く
+1. https://github.com/あなたのユーザー名/spec-ai-training-v2 を開く
 2. 「Compare & pull request」をクリック
 3. **base repository** が自分のリポジトリになっていることを確認（親リポジトリが選ばれていたら変更）
 4. タイトル: `Day8: GTMコンテンツ + 競合差別化ドキュメント`

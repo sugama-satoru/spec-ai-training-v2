@@ -304,7 +304,7 @@ Day10 と同様に、Git 操作は Cursor の AI に依頼する。研修リポ�
 **Cursor の AI チャット（Cmd+L）で以下のように依頼する:**
 
 ```
-研修リポジトリ（~/Desktop/spec-ai-training）で以下の操作をしてください:
+研修リポジトリ（~/Desktop/spec-ai-training-v2）で以下の操作をしてください:
 1. main ブランチの最新を pull
 2. training/day-11-project-a-deploy という新しいブランチを作成
 3. training/day-11/ フォルダの変更をすべて add

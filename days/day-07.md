@@ -122,7 +122,7 @@ Ghostty または Cursor のターミナル（`` Ctrl + ` ``）を開いて、�
 
 ```bash
 # 研修リポジトリに移動（クローン先がデスクトップの場合）
-cd ~/Desktop/spec-ai-training
+cd ~/Desktop/spec-ai-training-v2
 git pull origin main
 git checkout -b training/day-07-docs-role-split
 
@@ -152,7 +152,7 @@ git push origin training/day-07-docs-role-split
 ```
 
 **GitHubでPRを作成:**
-1. https://github.com/あなたのユーザー名/spec-ai-training を開く
+1. https://github.com/あなたのユーザー名/spec-ai-training-v2 を開く
 2. 「Compare & pull request」をクリック
 3. **base repository** が自分のリポジトリになっていることを確認（親リポジトリが選ばれていたら変更）
 4. タイトル: `Day7: 資料作成実務 + 人間/AI役割分担マトリクス`
