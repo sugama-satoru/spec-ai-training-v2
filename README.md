@@ -18,12 +18,9 @@
 
 | Phase | 期間 | 内容 |
 |-------|------|------|
-| **Phase 1** | Day1-Day3 (4/1-4/3) | AIツール基礎体験 -- Gemini、Claude、ChatGPTを実際に触り、AIで自己紹介スライドを作ったり、製品リサーチを行う |
-| **Phase 2** | Day4-Day9 (4/6-4/13) | AI基礎 + 実務応用 -- AIの全体像を理解し、リサーチ・資料作成・データ分析などの実務タスクにAIを活用する |
-| **Phase 3** | Day10-Day13 (4/14-4/21) | 開発体験 -- AIコードエディタ（Cursor）を使い、実際にWebアプリケーションを設計・実装・デプロイする |
-
-> **注意**: 4/15-16 は展示会出展のため研修休み。
-
+| **Phase 1** | Day1-Day3 | AIツール基礎体験 -- Gemini、Claude、ChatGPTを実際に触り、AIで自己紹介スライドを作ったり、製品リサーチを行う |
+| **Phase 2** | Day4-Day9 | AI基礎 + 実務応用 -- AIの全体像を理解し、リサーチ・資料作成・データ分析などの実務タスクにAIを活用する |
+| **Phase 3** | Day10-Day13 | 開発体験 -- AIコードエディタ（Cursor）を使い、実際にWebアプリケーションを設計・実装・デプロイする |
 ---
 
 ## 2. 研修を始める前に必要なもの
@@ -42,7 +39,7 @@
 
 ## ★ 事前準備チェックリスト
 
-研修初日（Day1）までに以下を完了させてください。上から順に進めると、セクション3〜8の内容をカバーできます。
+研修初日までに以下を完了させてください。上から順に進めると、セクション3〜8の内容をカバーできます。
 
 - [ ] Chrome ブラウザをインストールした
 - [ ] ターミナルアプリを準備した（Ghostty 推奨、またはターミナル.app）→ [セクション3](#3-ターミナルterminalの準備)
@@ -328,7 +325,11 @@ SHA256:xxxxxxxxxxxxxxx your.email@example.com
 4. **「Create fork」** をクリックします
 5. 数秒待つと、自分のアカウントにリポジトリがコピーされます
 
+docs/update-repo-name-to-v2
 **成功の確認**: ブラウザのURLが `https://github.com/あなたのユーザー名/spec-ai-training-v2` になっていればOKです。ページ上部のリポジトリ名の下に「forked from farleap/spec-ai-training-v2」と表示されています。
+
+**成功の確認**: ブラウザのURLが `https://github.com/あなたのユーザー名/spec-ai-training` になっていればOKです。ページ上部のリポジトリ名の下に「forked from farleap/spec-ai-training」と表示されています。
+main
 
 ---
 
@@ -375,13 +376,21 @@ Resolving deltas: 100% (XX/XX), done.
 
 ### 本体リポジトリとの同期設定（upstream）
 
+docs/update-repo-name-to-v2
 フォークした自分のリポジトリは、本体（farleap/spec-ai-training-v2）の更新を自動では受け取りません。研修中にカリキュラムやクイズが更新されることがあるため、以下の設定を行ってください。
+
+フォークした自分のリポジトリは、本体（farleap/spec-ai-training）の更新を自動では受け取りません。研修中にカリキュラムやクイズが更新されることがあるため、以下の設定を行ってください。
+main
 
 > クローン直後であればそのまま実行できます。ターミナルを閉じた後に実行する場合は、先に `cd ~/Desktop/spec-ai-training-v2` でリポジトリに移動してください。
 
 ```bash
 # 本体リポジトリを upstream として登録する（1回だけ実行すればOK）
+docs/update-repo-name-to-v2
 git remote add upstream git@github.com:farleap/spec-ai-training-v2.git
+
+git remote add upstream git@github.com:farleap/spec-ai-training.git
+main
 ```
 
 **成功の確認**:
@@ -391,10 +400,17 @@ git remote -v
 
 以下のように `origin`（自分のフォーク）と `upstream`（本体）の2つが表示されればOKです:
 ```
+docs/update-repo-name-to-v2
 origin    git@github.com:あなたのユーザー名/spec-ai-training-v2.git (fetch)
 origin    git@github.com:あなたのユーザー名/spec-ai-training-v2.git (push)
 upstream  git@github.com:farleap/spec-ai-training-v2.git (fetch)
 upstream  git@github.com:farleap/spec-ai-training-v2.git (push)
+
+origin    git@github.com:あなたのユーザー名/spec-ai-training.git (fetch)
+origin    git@github.com:あなたのユーザー名/spec-ai-training.git (push)
+upstream  git@github.com:farleap/spec-ai-training.git (fetch)
+upstream  git@github.com:farleap/spec-ai-training.git (push)
+main
 ```
 
 **本体の更新を取り込みたいとき:**
@@ -459,9 +475,9 @@ Day1 の開始前に、以下の必須ツールのアカウントを準備して
 
 | Phase | 期間 | 内容 |
 |-------|------|------|
-| Phase 1 | Day1-Day3 (4/1-4/3) | AIツール基礎体験 |
-| Phase 2 | Day4-Day9 (4/6-4/13) | AI基礎 + 実務応用 |
-| Phase 3 | Day10-Day13 (4/14-4/21) | 開発体験 |
+| Phase 1 | Day1-Day3 | AIツール基礎体験 |
+| Phase 2 | Day4-Day9 | AI基礎 + 実務応用 |
+| Phase 3 | Day10-Day13 | 開発体験 |
 
 各Dayの詳細なスケジュールとテーマは **`curriculum.md`** を参照してください。
 
