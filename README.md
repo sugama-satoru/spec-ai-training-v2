@@ -320,15 +320,15 @@ SHA256:xxxxxxxxxxxxxxx your.email@example.com
 
 「フォーク（Fork）」とは、他の人のリポジトリを**自分のGitHubアカウントにまるごとコピー**することです。コピーした自分のリポジトリに対して自由に変更を加えることができます。
 
-1. Chrome ブラウザで https://github.com/SHU-T0/spec-ai-training にアクセスします
+1. Chrome ブラウザで https://github.com/farleap/spec-ai-training-v2 にアクセスします
 2. ページ右上の **「Fork」** ボタンをクリックします
 3. 「Create a new fork」画面が表示されます
-   - **Repository name**: `spec-ai-training` のまま変更不要
+   - **Repository name**: `spec-ai-training-v2` のまま変更不要
    - **Copy the `main` branch only**: チェックが入ったままでOK
 4. **「Create fork」** をクリックします
 5. 数秒待つと、自分のアカウントにリポジトリがコピーされます
 
-**成功の確認**: ブラウザのURLが `https://github.com/あなたのユーザー名/spec-ai-training` になっていればOKです。ページ上部のリポジトリ名の下に「forked from SHU-T0/spec-ai-training」と表示されています。
+**成功の確認**: ブラウザのURLが `https://github.com/あなたのユーザー名/spec-ai-training-v2` になっていればOKです。ページ上部のリポジトリ名の下に「forked from farleap/spec-ai-training-v2」と表示されています。
 
 ---
 
@@ -347,25 +347,25 @@ cd ~/Desktop
 
 ```bash
 # リポジトリをクローンする（「あなたのユーザー名」を自分のGitHubユーザー名に置き換える）
-git clone git@github.com:あなたのユーザー名/spec-ai-training.git
+git clone git@github.com:あなたのユーザー名/spec-ai-training-v2.git
 ```
 
 ```bash
 # クローンしたフォルダに移動する
-cd spec-ai-training
+cd spec-ai-training-v2
 ```
 
 > **注意**: `あなたのユーザー名` の部分は、実際のGitHubユーザー名に置き換えてください。
 >
 > **例**: GitHubユーザー名が `taro-yamada` の場合:
 > ```bash
-> git clone git@github.com:taro-yamada/spec-ai-training.git
+> git clone git@github.com:taro-yamada/spec-ai-training-v2.git
 > ```
 
 ### 成功するとこのような表示が出ます
 
 ```
-Cloning into 'spec-ai-training'...
+Cloning into 'spec-ai-training-v2'...
 remote: Enumerating objects: XX, done.
 remote: Counting objects: 100% (XX/XX), done.
 remote: Compressing objects: 100% (XX/XX), done.
@@ -375,13 +375,13 @@ Resolving deltas: 100% (XX/XX), done.
 
 ### 本体リポジトリとの同期設定（upstream）
 
-フォークした自分のリポジトリは、本体（SHU-T0/spec-ai-training）の更新を自動では受け取りません。研修中にカリキュラムやクイズが更新されることがあるため、以下の設定を行ってください。
+フォークした自分のリポジトリは、本体（farleap/spec-ai-training-v2）の更新を自動では受け取りません。研修中にカリキュラムやクイズが更新されることがあるため、以下の設定を行ってください。
 
-> クローン直後であればそのまま実行できます。ターミナルを閉じた後に実行する場合は、先に `cd ~/Desktop/spec-ai-training` でリポジトリに移動してください。
+> クローン直後であればそのまま実行できます。ターミナルを閉じた後に実行する場合は、先に `cd ~/Desktop/spec-ai-training-v2` でリポジトリに移動してください。
 
 ```bash
 # 本体リポジトリを upstream として登録する（1回だけ実行すればOK）
-git remote add upstream git@github.com:SHU-T0/spec-ai-training.git
+git remote add upstream git@github.com:farleap/spec-ai-training-v2.git
 ```
 
 **成功の確認**:
@@ -391,10 +391,10 @@ git remote -v
 
 以下のように `origin`（自分のフォーク）と `upstream`（本体）の2つが表示されればOKです:
 ```
-origin    git@github.com:あなたのユーザー名/spec-ai-training.git (fetch)
-origin    git@github.com:あなたのユーザー名/spec-ai-training.git (push)
-upstream  git@github.com:SHU-T0/spec-ai-training.git (fetch)
-upstream  git@github.com:SHU-T0/spec-ai-training.git (push)
+origin    git@github.com:あなたのユーザー名/spec-ai-training-v2.git (fetch)
+origin    git@github.com:あなたのユーザー名/spec-ai-training-v2.git (push)
+upstream  git@github.com:farleap/spec-ai-training-v2.git (fetch)
+upstream  git@github.com:farleap/spec-ai-training-v2.git (push)
 ```
 
 **本体の更新を取り込みたいとき:**
@@ -419,13 +419,13 @@ git push origin main
 
 ### 方法A: リポジトリを Public（公開）にする -- 推奨
 
-1. Chrome で自分のフォークしたリポジトリ（`https://github.com/あなたのユーザー名/spec-ai-training`）を開きます
+1. Chrome で自分のフォークしたリポジトリ（`https://github.com/あなたのユーザー名/spec-ai-training-v2`）を開きます
 2. ページ上部の **「Settings」** タブをクリックします
 3. 左メニューの **「General」** が選択されていることを確認します
 4. ページ最下部の **「Danger Zone」** セクションまでスクロールします
 5. **「Change repository visibility」** の「Change visibility」ボタンをクリックします
 6. **「Change to public」** を選択します
-7. 確認のためリポジトリ名（`あなたのユーザー名/spec-ai-training`）を入力します
+7. 確認のためリポジトリ名（`あなたのユーザー名/spec-ai-training-v2`）を入力します
 8. **「I understand, change repository visibility」** をクリックします
 
 ### 方法B: 特定のメンバーを招待する（Private のまま使いたい場合）
@@ -501,7 +501,7 @@ Day4 以降は Git と GitHub を使って成果物を提出します。以下�
 
 ```bash
 # リポジトリのフォルダに移動（クローン先がデスクトップの場合）
-cd ~/Desktop/spec-ai-training
+cd ~/Desktop/spec-ai-training-v2
 
 # main ブランチに切り替える
 git checkout main
@@ -594,11 +594,11 @@ git push origin training/day-XX-テーマ名
 
 「PR（Pull Request / プルリクエスト）」とは、「この変更を取り込んでほしい」というレビュー依頼のことです。
 
-1. Chrome で自分のフォークしたリポジトリ（`https://github.com/あなたのユーザー名/spec-ai-training`）を開きます
+1. Chrome で自分のフォークしたリポジトリ（`https://github.com/あなたのユーザー名/spec-ai-training-v2`）を開きます
 2. ページ上部に黄色い **「Compare & pull request」** バナーが表示されるので、クリックします
    - バナーが表示されない場合は、「Pull requests」タブ → 「New pull request」をクリックしてください
 3. PR作成画面が表示されます:
-   - **base repository**: **自分のフォーク**（`あなたのユーザー名/spec-ai-training`）になっていることを確認してください。デフォルトで親リポジトリ（`SHU-T0/spec-ai-training`）が選択されている場合は、ドロップダウンをクリックして自分のリポジトリに変更してください
+   - **base repository**: **自分のフォーク**（`あなたのユーザー名/spec-ai-training-v2`）になっていることを確認してください。デフォルトで親リポジトリ（`farleap/spec-ai-training-v2`）が選択されている場合は、ドロップダウンをクリックして自分のリポジトリに変更してください
    - **base**: `main` になっていることを確認
    - **compare**: 今作成したブランチ（例: `training/day-05-research`）が選択されていることを確認
 4. **タイトル**: `Day XX 成果物提出` のように入力します（例: `Day 05 成果物提出`）
@@ -610,7 +610,7 @@ git push origin training/day-XX-テーマ名
    - レビューしてほしい観点
 6. **「Create pull request」** をクリックします
 
-**成功の確認**: PRのページが表示され、URLが `https://github.com/あなたのユーザー名/spec-ai-training/pull/番号` のようになっていればOKです。
+**成功の確認**: PRのページが表示され、URLが `https://github.com/あなたのユーザー名/spec-ai-training-v2/pull/番号` のようになっていればOKです。
 
 #### ステップ 8: Slack 通知を確認する
 
@@ -646,7 +646,7 @@ PRを作成すると、研修用Slackチャンネルに通知が届きます。�
 ## 12. リポジトリ構成
 
 ```
-spec-ai-training/
+spec-ai-training-v2/
 ├── README.md                      ← 今読んでいるファイル（使い方ガイド）
 ├── curriculum.md                  ← カリキュラム概要・日別スケジュール
 ├── account-setup.md               ← ツール・アカウントのセットアップ手順

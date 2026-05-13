@@ -198,7 +198,7 @@ Day12 では Claude Code デスクトップアプリを使っているので、G
 **Claude Code のチャットで以下のように依頼する:**
 
 ```
-研修リポジトリ（~/Desktop/spec-ai-training）で以下の操作をしてください:
+研修リポジトリ（~/Desktop/spec-ai-training-v2）で以下の操作をしてください:
 1. main ブランチの最新を pull
 2. training/day-12-project-b という新しいブランチを作成
 3. training/day-12/ フォルダの変更をすべて add

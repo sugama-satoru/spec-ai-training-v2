@@ -57,7 +57,7 @@ Markdown（マークダウン）は、テキストに簡単な記号を加える
 
 1. Cursor を起動する
 2. メニューの **「File」→「Open Folder...」** をクリック
-3. 開きたいフォルダを選択する（例: `~/Desktop/spec-ai-training`）
+3. 開きたいフォルダを選択する（例: `~/Desktop/spec-ai-training-v2`）
 4. 左側の **サイドバー** にフォルダ構成がツリー表示される
 
 > Cursor でフォルダを開くと、そのフォルダ内のすべてのファイルをサイドバーから簡単に行き来できる。
@@ -150,15 +150,15 @@ ssh -T git@github.com
 
 ### リポジトリをフォーク & クローン
 
-1. https://github.com/SHU-T0/spec-ai-training を開いて右上の「Fork」→「Create fork」
+1. https://github.com/farleap/spec-ai-training-v2 を開いて右上の「Fork」→「Create fork」
 
 2. ターミナルで:
 
 ```bash
 cd ~/Desktop
-git clone git@github.com:あなたのユーザー名/spec-ai-training.git
-cd spec-ai-training
-git remote add upstream git@github.com:SHU-T0/spec-ai-training.git
+git clone git@github.com:あなたのユーザー名/spec-ai-training-v2.git
+cd spec-ai-training-v2
+git remote add upstream git@github.com:farleap/spec-ai-training-v2.git
 ```
 
 → 詳細: README [セクション5](../README.md#5-このリポジトリをフォークする)、[セクション6](../README.md#6-フォークしたリポジトリをクローンする)
@@ -293,7 +293,7 @@ main（本体）─────────────────────�
 
 ---
 
-Cursor のターミナル（`` Ctrl + ` ``）を使う。Cursor で `spec-ai-training` フォルダを開いていれば、ターミナルのカレントディレクトリは既にリポジトリ内になっている。
+Cursor のターミナル（`` Ctrl + ` ``）を使う。Cursor で `spec-ai-training-v2` フォルダを開いていれば、ターミナルのカレントディレクトリは既にリポジトリ内になっている。
 
 ```bash
 # 最新の main ブランチを取得
@@ -310,7 +310,7 @@ Switched to a new branch 'training/day-04-tool-comparison'
 
 **ファイルの作り方（Cursor を使う）:**
 
-1. Cursor で `spec-ai-training` フォルダを開いていなければ、「File」→「Open Folder...」で開く
+1. Cursor で `spec-ai-training-v2` フォルダを開いていなければ、「File」→「Open Folder...」で開く
 2. サイドバーの `training/day-04` フォルダを右クリック → 「New File」
 3. ファイル名を入力して作成する
 
@@ -349,11 +349,11 @@ git push origin training/day-04-tool-comparison
 
 **GitHub で PR を作成する:**
 
-1. ブラウザで https://github.com/あなたのユーザー名/spec-ai-training を開く
+1. ブラウザで https://github.com/あなたのユーザー名/spec-ai-training-v2 を開く
 2. ページ上部に黄色いバナーで「training/day-04-tool-comparison had recent pushes...」と表示される
 3. 「Compare & pull request」ボタンをクリック
 4. PR作成画面:
-   - **base repository**: **自分のリポジトリ**（`あなたのユーザー名/spec-ai-training`）になっていることを確認。親リポジトリ（`SHU-T0/spec-ai-training`）が選ばれている場合は、ドロップダウンで自分のリポジトリに変更する
+   - **base repository**: **自分のリポジトリ**（`あなたのユーザー名/spec-ai-training-v2`）になっていることを確認。親リポジトリ（`farleap/spec-ai-training-v2`）が選ばれている場合は、ドロップダウンで自分のリポジトリに変更する
    - **base**: `main`
    - **タイトル**: `Day4: 3ツール比較 + 用語集 + プロンプト集`
    - **本文**: テンプレートに記入する（`templates/day-pr-body-template.md` を参照）
@@ -366,7 +366,7 @@ git push origin training/day-04-tool-comparison
 | エラー | 対処 |
 |--------|------|
 | `Permission denied (publickey)` | SSH キーが GitHub に登録されていない → 課題3のSSHキー設定を再実行 |
-| `fatal: not a git repository` | `spec-ai-training` フォルダの中にいない → `cd ~/Desktop/spec-ai-training` |
+| `fatal: not a git repository` | `spec-ai-training-v2` フォルダの中にいない → `cd ~/Desktop/spec-ai-training-v2` |
 | `error: failed to push` | 同名ブランチが既にある → ブランチ名を変更（例: `-v2` を末尾に追加） |
 
 > **上記以外のエラーが出たら?** エラーメッセージをそのまま Claude や ChatGPT にコピペして聞くのが最速。Git は初めてだとつまずきやすいツールなので、一人で悩まず AI に頼ること。
