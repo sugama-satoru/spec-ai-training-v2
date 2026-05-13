@@ -150,7 +150,7 @@ ssh -T git@github.com
 
 ### リポジトリをフォーク & クローン
 
-1. https://github.com/SHU-T0/spec-ai-training を開いて右上の「Fork」→「Create fork」
+1. https://github.com/farleap/spec-ai-training-v2 を開いて右上の「Fork」→「Create fork」
 
 2. ターミナルで:
 
