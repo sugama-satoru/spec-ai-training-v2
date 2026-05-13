@@ -325,7 +325,7 @@ SHA256:xxxxxxxxxxxxxxx your.email@example.com
 4. **「Create fork」** をクリックします
 5. 数秒待つと、自分のアカウントにリポジトリがコピーされます
 
-**成功の確認**: ブラウザのURLが `https://github.com/あなたのユーザー名/spec-ai-training` になっていればOKです。ページ上部のリポジトリ名の下に「forked from SHU-T0/spec-ai-training」と表示されています。
+**成功の確認**: ブラウザのURLが `https://github.com/あなたのユーザー名/spec-ai-training` になっていればOKです。ページ上部のリポジトリ名の下に「forked from farleap/spec-ai-training」と表示されています。
 
 ---
 
@@ -372,13 +372,13 @@ Resolving deltas: 100% (XX/XX), done.
 
 ### 本体リポジトリとの同期設定（upstream）
 
-フォークした自分のリポジトリは、本体（SHU-T0/spec-ai-training）の更新を自動では受け取りません。研修中にカリキュラムやクイズが更新されることがあるため、以下の設定を行ってください。
+フォークした自分のリポジトリは、本体（farleap/spec-ai-training）の更新を自動では受け取りません。研修中にカリキュラムやクイズが更新されることがあるため、以下の設定を行ってください。
 
 > クローン直後であればそのまま実行できます。ターミナルを閉じた後に実行する場合は、先に `cd ~/Desktop/spec-ai-training` でリポジトリに移動してください。
 
 ```bash
 # 本体リポジトリを upstream として登録する（1回だけ実行すればOK）
-git remote add upstream git@github.com:SHU-T0/spec-ai-training.git
+git remote add upstream git@github.com:farleap/spec-ai-training.git
 ```
 
 **成功の確認**:
@@ -390,8 +390,8 @@ git remote -v
 ```
 origin    git@github.com:あなたのユーザー名/spec-ai-training.git (fetch)
 origin    git@github.com:あなたのユーザー名/spec-ai-training.git (push)
-upstream  git@github.com:SHU-T0/spec-ai-training.git (fetch)
-upstream  git@github.com:SHU-T0/spec-ai-training.git (push)
+upstream  git@github.com:farleap/spec-ai-training.git (fetch)
+upstream  git@github.com:farleap/spec-ai-training.git (push)
 ```
 
 **本体の更新を取り込みたいとき:**
