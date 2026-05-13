@@ -353,7 +353,7 @@ git push origin training/day-04-tool-comparison
 2. ページ上部に黄色いバナーで「training/day-04-tool-comparison had recent pushes...」と表示される
 3. 「Compare & pull request」ボタンをクリック
 4. PR作成画面:
-   - **base repository**: **自分のリポジトリ**（`あなたのユーザー名/spec-ai-training`）になっていることを確認。親リポジトリ（`SHU-T0/spec-ai-training`）が選ばれている場合は、ドロップダウンで自分のリポジトリに変更する
+   - **base repository**: **自分のリポジトリ**（`あなたのユーザー名/spec-ai-training`）になっていることを確認。親リポジトリ（`farleap/spec-ai-training`）が選ばれている場合は、ドロップダウンで自分のリポジトリに変更する
    - **base**: `main`
    - **タイトル**: `Day4: 3ツール比較 + 用語集 + プロンプト集`
    - **本文**: テンプレートに記入する（`templates/day-pr-body-template.md` を参照）
