@@ -317,7 +317,7 @@ SHA256:xxxxxxxxxxxxxxx your.email@example.com
 
 「フォーク（Fork）」とは、他の人のリポジトリを**自分のGitHubアカウントにまるごとコピー**することです。コピーした自分のリポジトリに対して自由に変更を加えることができます。
 
-1. Chrome ブラウザで https://github.com/SHU-T0/spec-ai-training にアクセスします
+1. Chrome ブラウザで https://github.com/farleap/spec-ai-training-v2 にアクセスします
 2. ページ右上の **「Fork」** ボタンをクリックします
 3. 「Create a new fork」画面が表示されます
    - **Repository name**: `spec-ai-training` のまま変更不要
